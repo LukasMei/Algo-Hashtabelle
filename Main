@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class Main implements IntStringMap  {
+    public static void main(String[] args) {
+
+        Map<String,Integer> student = new Hashtable<>();
+
+
+        student.put("Max Mustermann",74899);
+        student.put("Lisa Lustig", 87233);
+        student.put("Peter Maffay", 00001);
+
+        List<String> studentList = new LinkedList<>();
+        studentList.addAll(student.keySet());
+
+        
+
+    }
+
+}
